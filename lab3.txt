@@ -1,0 +1,14 @@
+cd
+grep -o 'Friday' crusoe.txt | uniq -c
+cat crusoe.txt | sed 's/Friday/Saturday/g' > crusoe_.txt
+(na etom 1 4ast zacon4ilas)
+(summa)
+cd
+cat > tests.txt
+1 2
+3 4
+5 6
+^C
+cat tests.txt | awk 'BEGIN {s1 = 0; s2 = 0}
+	{s1 += $1; s2 += $2;}
+	END {printf "s1: %d s2: %d\n", s1, s2}'
