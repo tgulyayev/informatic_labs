@@ -12,3 +12,4 @@ cat > tests.txt
 cat tests.txt | awk 'BEGIN {s1 = 0; s2 = 0}
 	{s1 += $1; s2 += $2;}
 	END {printf "s1: %d s2: %d\n", s1, s2}'
+
