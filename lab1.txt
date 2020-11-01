@@ -1,0 +1,20 @@
+test
+mkdir lab1
+mkdir second_dir
+cp -r lab1 second_dir
+cat > lab1.txt
+test
+^C
+cp -r lab1.txt lab1
+mkdir third_dir
+mv lab1 third_dir
+mv lab1.txt second_dir
+mv second_dir/lab1.txt $HOME
+rm -r third_dir
+rm -r second_dir
+
+Путь до домашней дериктории: /home/labsinf
+команда cd без параметров - возвращает в домашнюю дерикторию
+отличие cat от less:
+cat - короткий файл, просмотр
+less - большой файл, поиск, перемещение вниз - ввер.
