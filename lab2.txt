@@ -1,10 +1,10 @@
 hello world
 wget http://factorized.net/crusoe.txt
-sudo find /tmp -name "*.txt"
+sudo find ./tmp -name "*.txt"
 cd
 grep -r-i-n "friday" crusoe.txt
 echo hello world > lab2.txt
 ls > files.txt
 cat files.txt
-sudo find / -name "*.txt"
+sudo find ./ -name "*.txt"
 
