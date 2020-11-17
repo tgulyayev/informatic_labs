@@ -1,0 +1,5 @@
+cat > .txt
+ls
+ls -a
+ls -a
+find -name ".*"
