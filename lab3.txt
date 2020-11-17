@@ -1,5 +1,5 @@
 cd
-grep -o 'Friday' crusoe.txt | uniq -c
+grep -с 'Friday' crusoe.txt
 cat crusoe.txt | sed 's/Friday/Saturday/g' > crusoe_.txt
 (na etom 1 4ast zacon4ilas)
 (summa)
