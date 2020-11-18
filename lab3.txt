@@ -1,6 +1,6 @@
 cd
 grep -с 'Friday' crusoe.txt
-sed -i 's/Friday/Saturday/'
+sed -i 's/Friday/Saturday/' crusoe.txt
 grep -n 'Saturday' crusoe.txt
 (na etom 1 4ast zacon4ilas)
 (summa)
