@@ -1,0 +1,9 @@
+touch shared.txt
+ls -la shared.txt
+chmod 400 sahred.txt
+sudo chown right shared.txt
+ls -la shared.txt
+sudo chown labsinf shared.txt
+права можно менять не только цифрами, но и буквами через u - user, g - group, o - other, +-rwx
+если бы можно это все было делать всем пользователям то начался бы хаус и информационный апокалипсис
+
