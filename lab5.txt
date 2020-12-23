@@ -1,0 +1,10 @@
+which cat
+whereis cat
+echo $PATH
+nano main.c
+gcc main.c
+./a.out
+cd
+export PATH=$PATH:$HOME/labsinf/
+a.out
+echo $PATH
